@@ -75,7 +75,7 @@ class Grid {
                 next_step[i] = 1;
             } else if (left === 0 && center === 0 && right === 1) {
                 next_step[i] = 1;
-            } else {
+            } else if (left === 0 && center === 0 && right === 0) {
                 next_step[i] = 0;
             }
         }
