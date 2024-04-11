@@ -1,7 +1,7 @@
 let grid;
 let cols;
 let rows;
-let resolution = 5;
+let resolution = 20;
 let mouse_col;
 let mouse_row;
 let last_clicked_row;
